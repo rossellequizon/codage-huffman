@@ -17,12 +17,17 @@ LICENSE : Fichier contenant la licence du projet (MIT)
 Pré-requis : compilateur C installé, tel que gcc
 
 Programme de compression :
+
 Compilation : gcc compresser.c -o compresser
 Execution : ./compresser entree.txt compresse.huf
+
 Programme de décompression : 
+
 Compilation : gcc decompresser.c -o decompresser
 Execution : ./decompresser compresse.huf sortie.txt
+
 Explication de l'algorithme de Huffman :
+
 Analyse du fichier : On compte le nombre d'apparitions de chaque caractère.
 Construction de l'arbre de Huffman : Chaque caractère devient un nœud avec un poids égal à sa fréquence d'apparition. On fusionne ensuite les deux nœuds ayant les poids les plus faibles jusqu'à obtenir un arbre unique.
 Génération des codes : On attribue un code binaire unique à chaque caractère en parcourant l'arbre.
