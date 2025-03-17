@@ -1,6 +1,7 @@
 Projet Huffman - Compression et Décompression de fichiers
 
 Description
+
 Ce projet a été réalisé dans le cadre d’un devoir académique afin d’implémenter et comprendre les algorithmes de compression et de décompression de fichiers en langage C. L'algorithme de Huffman est une méthode de compression sans perte qui attribue des codes plus courts aux symboles fréquents et des codes plus longs aux symboles rares, optimisant ainsi la taille du fichier compressé.
 
 Le projet contient deux programmes :
